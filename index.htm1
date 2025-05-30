@@ -1,0 +1,103 @@
+!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>آموزشگاه عالی مسلم اندیش</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px 0;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      padding: 30px;
+    }
+    .graduates {
+      font-size: 20px;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      margin: 15px auto;
+      width: 90%;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, select {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #003366;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0055aa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>آموزشگاه عالی مسلم اندیش</h1>
+    <p>فارغین ما تا اکنون: <strong>۲۳۴۰</strong> نفر</p>
+  </header>
+
+  <div class="container">
+    <h2>ثبت‌نام برای شاگردان جدید</h2>
+
+    <form>
+      <h3>فورم برای زکور</h3>
+      <input type="text" placeholder="نام کامل">
+      <input type="number" placeholder="عمر">
+      <input type="text" placeholder="شماره تماس">
+      <select>
+        <option selected disabled>رشته مورد نظر</option>
+        <option>انگلیسی</option>
+        <option>کمپیوتر</option>
+        <option>قرآن کریم</option>
+        <option>سوادآموزی</option>
+        <option>خطاطی</option>
+        <option>خبرنگاری</option>
+      </select>
+      <button type="submit">ثبت‌نام</button>
+    </form>
+
+    <form>
+      <h3>فورم برای اناث</h3>
+      <input type="text" placeholder="نام کامل">
+      <input type="number" placeholder="عمر">
+      <input type="text" placeholder="شماره تماس">
+      <select>
+        <option selected disabled>رشته مورد نظر</option>
+        <option>انگلیسی</option>
+        <option>کمپیوتر</option>
+        <option>قرآن کریم</option>
+        <option>سوادآموزی</option>
+        <option>خطاطی</option>
+        <option>خبرنگاری</option>
+      </select>
+      <button type="submit">ثبت‌نام</button>
+    </form>
+  </div>
+</body>
+</html
